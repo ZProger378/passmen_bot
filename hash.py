@@ -35,7 +35,7 @@ def gen_salt():
 
 
 def gen_strong_password():
-    chars = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890!@#$%^&*()_+-=[]{};:'\",.<>/?|\\/*`~"
+    chars = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890"
     pass_len = randint(10, 20)
     password = ""
     for i in range(pass_len):
