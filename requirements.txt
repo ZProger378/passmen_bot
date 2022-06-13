@@ -1,3 +1,4 @@
 cryptocode==0.1
 pyAesCrypt==6.0.0
 pyTelegramBotAPI==4.5.0
+python-dotenv==0.15.0
