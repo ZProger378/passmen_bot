@@ -22,23 +22,25 @@
 1) Находим или покупаем VDS на Debian или Ubuntu
 2) Подключаемся по ssh (с помощью стандартной команды ssh или с помощью других программ)
 3) Вводим команды:
-  $ apt install python3-pip
   
-  $ apt install npm
+   $ apt install python3-pip
   
-  $ npm install pm2 -g
+   $ apt install npm
   
-  $ apt install git
+   $ npm install pm2 -g
   
-  $ git clone https://github.com/ZProger378/passmen_bot/
+   $ apt install git
   
-  $ cd passmen_bot
+   $ git clone https://github.com/ZProger378/passmen_bot/
   
-  $ pip3 install -r requirements.txt
+   $ cd passmen_bot
   
-  $ python3 reset_database.py
+   $ pip3 install -r requirements.txt
   
-  $ pm2 start main.py --interpreter python3
+   $ python3 reset_database.py
+  
+   $ pm2 start main.py --interpreter python3
+
 
 
 # ВНИМАНИЕ!
