@@ -23,16 +23,25 @@
 2) Подключаемся по ssh (с помощью стандартной команды ssh или с помощью других программ)
 3) Вводим команды:
   $ apt install python3-pip
+  
   $ apt install npm
+  
   $ npm install pm2 -g
+  
   $ apt install git
+  
   $ git clone https://github.com/ZProger378/passmen_bot/
+  
   $ cd passmen_bot
+  
   $ pip3 install -r requirements.txt
+  
   $ python3 reset_database.py
+  
   $ pm2 start main.py --interpreter python3
 
 
+# ВНИМАНИЕ!
 Данный проект выложен под свободной лицензией GNU, следовательно я никак не могу монетезировать его, как и другие будущие проекты. Единственный выход - донаты.
 Поэтому, чтобы данный проект дорабатывался и создавались другие аналогичные проекты под свободной лицензией, необходима поддержка.
 
