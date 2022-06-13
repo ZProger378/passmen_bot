@@ -36,6 +36,8 @@
    $ cd passmen_bot
   
    $ pip3 install -r requirements.txt
+   
+   Откройте файл config.py и впишите в переменную bot_token свой токен
   
    $ python3 reset_database.py
   
