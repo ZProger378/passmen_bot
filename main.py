@@ -1,3 +1,4 @@
+# Импортирование файлов
 from hash import *
 from config import *
 from markup import *
@@ -5,7 +6,7 @@ from database import *
 from handlers import *
 
 
-@bot.callback_query_handler(func=lambda call: True)
+@bot.callback_query_handler(func=lambda call: True)  # Обработчик callback
 def callback(call):
     data = call.data
     message = call.message
@@ -77,4 +78,4 @@ def main_handler(message):
             bot.send_message(message.chat.id, f"Невозможно получить доступ к зашифрованной базе данных!")
 
 
-bot.polling(none_stop=True, interval=0)
+bot.polling(none_stop=True, interval=0)  # Запуск всего бота

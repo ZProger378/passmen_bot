@@ -1,4 +1,3 @@
-import os
 import json
 import sqlite3
 from hash import *
