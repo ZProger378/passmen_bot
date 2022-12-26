@@ -1,4 +1,5 @@
 from telebot import TeleBot
+from env import env
 
-bot_token = "1785441124:AAG32OpB4PgD_mGVL5fNn2RKGKqsm1LqBdg"  # Ваш токен
+bot_token = env.telegram_token
 bot = TeleBot(bot_token, parse_mode="html")
