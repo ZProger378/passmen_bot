@@ -37,7 +37,7 @@
   
    $ pip3 install -r requirements.txt
    
-   Откройте файл config.py и впишите в переменную bot_token свой токен
+   $ export TELEGRAM_TOKEN="<ВАШ ТЕЛЕГРАМ ТОКЕН БОТА>"
   
    $ python3 reset_database.py
   
